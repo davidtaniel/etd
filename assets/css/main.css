@@ -46,9 +46,20 @@ body {
 
 .logo-image {
 	display: block;
-	max-width: 7em;
+	max-width: 6em;
 	max-height: auto;
+	margin-top: -2em;
+	margin-left: 1em;
+	margin-bottom: 1em;
+
 	
+	
+}
+.logo-image2 {
+	display: block;
+	max-width: 5em;
+	max-height: auto;
+	margin-top: -2em;
 	margin-left: 1em;
 
 	
@@ -63,9 +74,9 @@ body {
 	
 }
 .top-icons-box {
-	margin-left: 53em;
+	margin-left: 50em;
 	display: flex;
-	margin-top: -2em;
+	
 	
 	
 }
