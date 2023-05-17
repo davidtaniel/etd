@@ -45,14 +45,15 @@ body {
   z-index: -1;
 }
 
-.optics1{
-				
-			}
-			.optics1-link:hover{
-				display: block;
-				visibility:visible;
-			}
 
+article {
+	display: none;
+	opacity: 0.05;
+}
+
+.visible {
+	display: block;
+}
 
 .logo-image {
 	display: block;

@@ -3,27 +3,52 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+$("#optics-link1").click(function(){
+ $( "#optics1" ).addClass( "visible" );
+ $( "#optics2" ).removeClass( "visible" );
+ $( "#optics3" ).removeClass( "visible" );	
+ $( "#optics4" ).removeClass( "visible" );	
+});
 
+$("#optics-link2").click(function(){
+ $( "#optics1" ).removeClass( "visible" );
+ $( "#optics2" ).addClass( "visible" );
+ $( "#optics3" ).removeClass( "visible" );	
+ $( "#optics4" ).removeClass( "visible" );
+});
 
-	$( ".logo-box" ).animate(
-    {
-        
+$("#optics-link3").click(function(){
+ $( "#optics1" ).removeClass( "visible" );
+ $( "#optics2" ).removeClass( "visible" );
+ $( "#optics3" ).addClass( "visible" );	
+ $( "#optics4" ).removeClass( "visible" );
+});
+$("#optics-link4").click(function(){
+ $( "#optics1" ).removeClass( "visible" );
+ $( "#optics2" ).removeClass( "visible" );
+ $( "#optics3" ).removeClass( "visible" );	
+ $( "#optics4" ).addClass( "visible" );
+});
+$( "article" ).animate(
+    {      
         "opacity": 0.95,
-		"background":"transparent",
-		
+		"background":"transparent",	
     },
-		
- 
-    // Duration
     2000,
- 
-    // Callback to invoke when the animation is finished
     function() {
         console.log( "done!" );
     }
 );
-	
-
+	$( ".logo-box" ).animate(
+    {     
+        "opacity": 0.95,
+		"background":"transparent",	
+    },
+    2000,
+    function() {
+        console.log( "done!" );
+    }
+);
 
 (function($) {
 	
