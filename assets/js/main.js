@@ -12,6 +12,7 @@
 		"background":"transparent",
 		
     },
+		
  
     // Duration
     2000,

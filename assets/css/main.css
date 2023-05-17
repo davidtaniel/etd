@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	
 }
 #myVideo {
   width: 100vw;
@@ -43,6 +44,15 @@ body {
   bottom: 0;
   z-index: -1;
 }
+
+.optics1{
+				
+			}
+			.optics1-link:hover{
+				display: block;
+				visibility:visible;
+			}
+
 
 .logo-image {
 	display: block;
@@ -159,7 +169,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f7f7f7 url("images/back1.d");
+		
+		
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1975,6 +1986,7 @@ input, select, textarea {
 							padding-top: 10px;
 						}
 
+			
 				.row {
 					margin-top: -20px;
 					margin-left: -20px;
@@ -2041,7 +2053,7 @@ input, select, textarea {
 		margin-top: -1.25em;
 		margin-bottom: 2.25em;
 	}
-
+	
 	header.major {
 		text-align: center;
 		margin: 0 0 2em 0;
@@ -2810,7 +2822,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background: #fff;
+			
 		}
 
 		.wrapper.style2 {
