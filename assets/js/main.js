@@ -31,8 +31,10 @@ $("#optics-link4").click(function(){
 });
 $( "article" ).animate(
     {      
-        "opacity": 0.95,
-		"background":"transparent",	
+	  
+      opacity: '0.95',
+    
+	   
     },
     2000,
     function() {
