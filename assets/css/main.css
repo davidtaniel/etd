@@ -33,9 +33,39 @@ body {
 	line-height: 1;
 	
 }
-#myVideo {
+
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+#background-video {
   width: 100vw;
   height: 100vh;
+ max-height: 4em;
   object-fit: cover;
   position: absolute;
   left: 0;
@@ -45,7 +75,6 @@ body {
   z-index: -1;
 }
 
-
 article {
 	display: none;
 	opacity: 0.05;
@@ -54,57 +83,69 @@ article {
 .visible {
 	display: block;
 }
-
-.logo-image {
-	display: block;
-	max-width: 6em;
-	max-height: auto;
-	margin-top: -2em;
-	margin-left: 1em;
-	margin-bottom: 1em;
-
+.top-box {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-template-rows: 1fr; 
+	grid-gap: 0.5em;
+	max-height: 4em;
+	padding: 0;
 	
+	border:solid 2px;
 	
 }
-.logo-image2 {
-	display: block;
-	max-width: 5em;
-	max-height: auto;
-	margin-top: -1.3em;
-	margin-left: 1em;
+.top-box > * {
 
-	
+ color: white;
+ padding: 0;
+	max-height: 4em;
+	margin: 0;
 	
 }
 .logo-box {
-	display: flex;
-		opacity: 0.1;
-	
-	
-	
-	
+	border: solid 2px red;
+	opacity: 0.1;
+
+
 }
-.top-icons-box {
-	margin-left: 46em;
-	display: flex;
+
+.logo-image {
 	
-	
-	
-}
-.address {
-	
-	display: block;
-	max-width: 1.2em;
+	width: 3em;
+    display: block;	
 	max-height: auto;
-	margin-left: 0.4em;
+	box-shadow: 2px 2px gray;
+	
+	
 	
 	
 }
+.title-logo {
+	
+
+	font-family: monospace;
+
+	color: gray;
+
+	text-shadow: 1px 2px;
+
+}	
+
+
+.top-icons-box {
+	
+	padding: 0.5em;
+	opacity: 0.9;
+
+	
+	
+}
+
 .icons-top {
 	
 	border-radius: 0.2em;
 
-	display: block;
+	display:inline-block;
 	max-width: 1.2em;
 	max-height: auto;
 	margin-left: 1em;
@@ -2626,7 +2667,8 @@ input, select, textarea {
 
 	#header {
 		text-align: center;
-		padding: 3em 0 0 0;
+		
+		padding: 0 0 0 0;
 		background-color: white;
 		background-image: url("images/bg0.png"), url("images/bg0.png"), url("images/bg0.png");
 		background-position: top left,					top left,					top left;
