@@ -3,31 +3,31 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-$("#optics-link1").click(function(){
- $( "#optics1" ).addClass( "visible" );
- $( "#optics2" ).removeClass( "visible" );
- $( "#optics3" ).removeClass( "visible" );	
- $( "#optics4" ).removeClass( "visible" );	
+$("#article-link-1").click(function(){
+ $( "#article-1" ).addClass( "visible" );
+ $( "#article-2" ).removeClass( "visible" );
+ $( "#optics-3" ).removeClass( "visible" );	
+ $( "#optics-4" ).removeClass( "visible" );	
 });
 
-$("#optics-link2").click(function(){
- $( "#optics1" ).removeClass( "visible" );
- $( "#optics2" ).addClass( "visible" );
- $( "#optics3" ).removeClass( "visible" );	
- $( "#optics4" ).removeClass( "visible" );
+$("#article-link-2").click(function(){
+ $( "#article-1" ).removeClass( "visible" );
+ $( "#article-2" ).addClass( "visible" );
+ $( "#article-3" ).removeClass( "visible" );	
+ $( "#article-4" ).removeClass( "visible" );
 });
 
-$("#optics-link3").click(function(){
- $( "#optics1" ).removeClass( "visible" );
- $( "#optics2" ).removeClass( "visible" );
- $( "#optics3" ).addClass( "visible" );	
- $( "#optics4" ).removeClass( "visible" );
+$("#article-link-3").click(function(){
+ $( "#article-1" ).removeClass( "visible" );
+ $( "#article-2" ).removeClass( "visible" );
+ $( "#article-3" ).addClass( "visible" );	
+ $( "#article-4" ).removeClass( "visible" );
 });
-$("#optics-link4").click(function(){
- $( "#optics1" ).removeClass( "visible" );
- $( "#optics2" ).removeClass( "visible" );
- $( "#optics3" ).removeClass( "visible" );	
- $( "#optics4" ).addClass( "visible" );
+$("#article-link-4").click(function(){
+ $( "#article-1" ).removeClass( "visible" );
+ $( "#article-2" ).removeClass( "visible" );
+ $( "#article-3" ).removeClass( "visible" );	
+ $( "#article-4" ).addClass( "visible" );
 });
 $( "article" ).animate(
     {      
