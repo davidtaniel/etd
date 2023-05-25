@@ -102,6 +102,11 @@ article {
 	
 	
 }
+
+#logo {
+	display: none;
+	
+}
 .logo-box {
 	
 	opacity: 0.1;
