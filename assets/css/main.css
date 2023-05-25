@@ -267,6 +267,7 @@ input, select, textarea {
 		font-weight: 600;
 		line-height: 1.75em;
 		margin-bottom: 1em;
+		
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -287,6 +288,8 @@ input, select, textarea {
 	h3 {
 		font-size: 1.2em;
 		letter-spacing: -0.025em;
+		
+		
 	}
 
 	sub {
@@ -3390,6 +3393,7 @@ input, select, textarea {
 				font-size: 1em;
 				letter-spacing: 0;
 				line-height: 1.35em;
+				
 			}
 
 			header p {
