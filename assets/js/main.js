@@ -27,6 +27,18 @@ $("#article-link-4").click(function(){
  $( "#article-3" ).removeClass( "visible" );	
  $( "#article-4" ).addClass( "visible" );
 });
+$("footer .button").click(function (){
+	if ($(this).text()=="Mas información")
+	{console.log("content");
+	 $("footer .button").text("Menos información");
+$("section p ").removeClass("invisible");
+	} else {
+		$("section .shift").addClass("invisible");
+		$("footer .button").text("Mas información");
+	}
+	});
+
+
 $( "article" ).animate(
     {      
 	  
@@ -46,9 +58,23 @@ $( "article" ).animate(
     },
     2000,
     function() {
+	  
         console.log( "done!" );
     }
 );
+
+$("#banner header .button").animate(
+{"margin-left": "1em"},
+	2000,
+	function(){
+		console.log("done");
+	}
+	
+);
+
+
+
+
 
 (function($) {
 	

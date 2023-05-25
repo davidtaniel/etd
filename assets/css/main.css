@@ -63,7 +63,7 @@ img {
 #background-video {
   width: 98.7vw;
   height: 100vh;
- max-height: 3.4em;
+ max-height: 8em;
   object-fit: cover;
   position: absolute;
   left: 0;
@@ -142,6 +142,7 @@ article {
 	
 	padding: 0.5em;
 	opacity: 0.9;
+	
 
 	
 	
@@ -164,9 +165,13 @@ article {
 }
 a > .icons-top:hover{
 	max-width: 1.20em;
-	box-shadow: 0 0 0 2px white, 0 0 0 3px gray;
+	box-shadow: 0 0 0 2px white, 0 0 0 1px gray;
 	
 }
+.message {
+	display: none;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -2097,12 +2102,18 @@ input, select, textarea {
 		text-align: center;
 	}
 
+section p {
+	text-align: justify;	
+	
+}
+
 	header p {
 		color: #999;
 		font-size: 1.25em;
 		position: relative; 
 		margin-top: -1.25em;
 		margin-bottom: 2.25em;
+		
 	}
 	
 	header.major {
@@ -2135,7 +2146,12 @@ input, select, textarea {
 		footer.major {
 			padding-top: 3em;
 		}
-
+footer .button {
+	
+}
+.invisible {
+	display: none;
+}
 /* Form */
 
 	input[type="text"],
@@ -2581,7 +2597,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			background-color: #2A3A8A;
-			color: #fff !important;
+			color: skyblue !important;
 		}
 
 		input[type="submit"]:active,
@@ -2671,6 +2687,10 @@ input, select, textarea {
 			width: 30%;
 			margin: 0;
 		}
+		.box.post .image:hover {
+				width: 30.3%;
+				
+			}
 
 /* Header */
 
@@ -2698,7 +2718,7 @@ input, select, textarea {
 
 	#nav {
 		cursor: default;
-		background-color: #2A3A8A;
+		background-color: transparent;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
@@ -2736,7 +2756,7 @@ input, select, textarea {
 					padding: 1.5em 0.5em 1.35em 0.5em;
 					font-family: Exo 2;
 				
-					color: lightslategray;
+					color: white;
 				}
 
 				#nav > ul > li:first-child {
@@ -2744,7 +2764,9 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover a {
-					color: #fff;
+					color:skyblue;
+					
+					
 				}
 
 				#nav > ul > li.current {
@@ -2848,7 +2870,7 @@ input, select, textarea {
 
 			#banner header h2 {
 				display: inline-block;
-				margin: 0;
+				margin: 0em;
 				font-size: 1.25em;
 				vertical-align: middle;
 			}
@@ -2867,7 +2889,7 @@ input, select, textarea {
 
 			#banner header .button {
 				vertical-align: middle;
-				margin-left: 1em;
+				margin-left: 15em;
 			}
 
 /* Wrapper */
@@ -3129,6 +3151,9 @@ input, select, textarea {
 			.box.post .image {
 				width: 20%;
 			}
+			
+		
+		
 
 		/* Header */
 
@@ -3148,6 +3173,7 @@ input, select, textarea {
 
 				#banner header .button {
 					margin: 1em 0 0 0;
+					
 				}
 
 		/* CTA */
