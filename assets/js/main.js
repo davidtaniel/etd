@@ -64,7 +64,7 @@ $( "article" ).animate(
 );
 
 $("#banner header .button").animate(
-{"margin-left": "1em"},
+{"margin-left": "0.1em"},
 	2000,
 	function(){
 		console.log("done");
